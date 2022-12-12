@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="false"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+      android:background="@drawable/zaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Hai Zain Gateng"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@color/white"
+                            android:text="08239289692"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <RelativeLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                          android:background="@drawable/background"
+                            android:layout_width="wrap_content"
+                            android:padding="2dp"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#F30024"
+                                android:textSize="8dp"
+                                android:gravity="center"
+                                android:text="Prabayar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </RelativeLayout>
+
+                        <ImageButton
+                            android:background="#00574040"
+                            android:src="@drawable/ic_baseline_add_24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_marginRight="20dp"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_grid_view_24"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+                   <ImageButton
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_mail_outline_24"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+                    <ImageButton
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_baseline_help_outline_24"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <HorizontalScrollView
+android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <LinearLayout
+              android:paddingLeft="15dp"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <azwar.widget.custome.ButtonTransparan
+                  android:layout_marginRight="5dp"
+                  android:textAllCaps="false"
+                  android:textSize="12dp"
+                  android:textColor="@color/white"
+                  android:drawableLeft="@drawable/ic_baseline_stars_24"
+                  android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+                  android:backgroundTint="@color/black"
+                  android:text="Platinum"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+<azwar.widget.custome.ButtonTransparan
+    android:textColor="@color/white"
+                  android:layout_marginRight="5dp"
+                  android:textAllCaps="false"
+                  android:textSize="12dp"
+                  android:drawableLeft="@drawable/ic_baseline_favorite_24"
+                  android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+                  android:backgroundTint="#D7A10000"
+                  android:text=" 1030 Point"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+<azwar.widget.custome.ButtonTransparan
+    android:backgroundTint="#D7A10000"
+                  android:layout_marginRight="5dp"
+                  android:textAllCaps="false"
+                  android:textSize="12dp"
+                  android:drawableLeft="@drawable/ic_baseline_favorite_24"
+                  android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+    android:textColor="@color/white"
+                  android:text=" Daily Check In"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+<azwar.widget.custome.ButtonTransparan
+    android:backgroundTint="#D7A10000"
+                  android:layout_marginRight="5dp"
+                  android:textAllCaps="false"
+                  android:textSize="12dp"
+                  android:drawableLeft="@drawable/ic_baseline_favorite_24"
+                  android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+    android:textColor="@color/white"
+                  android:text=" Paket Gratis"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"/>
+
+          </LinearLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>
